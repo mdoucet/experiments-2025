@@ -21,7 +21,7 @@ def create_fit_experiment(q, dq, data, errors):
     material = SLD(name='material', rho=4.92, irho=0.0)
     SEI = SLD(name='SEI', rho=5.6, irho=0.0)
     
-    sample = ( THF(0, 24.92) | material(53, 13.48) | Cu(500, 6.24) | Ti(35.38, 1.7) | Si )
+    sample = ( THF(0, 24.92) | Cu(500, 6.24) | Ti(35.38, 1.7) | Si )
 
     M = Experiment(sample=sample, probe=probe)
 
@@ -32,20 +32,16 @@ def create_fit_experiment(q, dq, data, errors):
     sample['Ti'].material.rho.range(-3.0, -1)
     sample['Ti'].interface.range(1.0, 22.0)
 
-    sample['material'].thickness.range(10.0, 200.0)
-    sample['material'].material.rho.range(5.0, 12)
-    sample['material'].interface.range(1.0, 33.0)
-
     sample['Cu'].thickness.range(1.0, 1000.0)
     sample['Cu'].material.rho.range(2.0, 12)
     sample['Cu'].interface.range(1.0, 12.0)
-    
+
     return M
 
 # Auto-reduction directory
 ar_dir = '/SNS/REF_L/IPTS-34347/shared/autoreduce/'
 
-data_file = os.path.join(ar_dir, 'REFL_218406_combined_data_auto.txt')
+data_file = os.path.join(ar_dir, 'REFL_218376_combined_data_auto.txt')
 
 _refl = np.loadtxt(data_file).T
 
