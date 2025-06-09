@@ -33,7 +33,7 @@ def create_fit_experiment(q, dq, data, errors):
     sample["Ti"].interface.range(1.0, 22.0)
 
     sample["material"].thickness.range(10.0, 200.0)
-    sample["material"].material.rho.range(5.0, 12)
+    sample["material"].material.rho.range(3.0, 12)
     sample["material"].interface.range(1.0, 33.0)
 
     sample["Cu"].thickness.range(1.0, 1000.0)

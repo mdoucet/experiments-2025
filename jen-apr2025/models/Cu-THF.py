@@ -13,15 +13,15 @@ def create_fit_experiment(q, dq, data, errors):
     probe.intensity = Parameter(value=1, name='intensity')
     probe.intensity.pm(0.05)
 
-    THF = SLD('THF', rho=6.0)
+    THF = SLD('THF', rho=5.8)
     Si = SLD('Si', rho=2.07)
-    Ti = SLD('Ti', rho=-2.69)
+    Ti = SLD('Ti', rho=-1.2)
     SiOx = SLD('SiOx', rho=2.83)
-    Cu = SLD('Cu', rho=6.344)
-    material = SLD(name='material', rho=4.92, irho=0.0)
+    Cu = SLD('Cu', rho=6.25)
+    material = SLD(name='material', rho=5.46, irho=0.0)
     SEI = SLD(name='SEI', rho=5.6, irho=0.0)
     
-    sample = ( THF(0, 24.92) | material(53, 13.48) | Cu(500, 6.24) | Ti(35.38, 1.7) | Si )
+    sample = ( THF(0, 11.4) | material(58, 13) | Cu(505, 4.6) | Ti(39.5, 9.1) | Si )
 
     M = Experiment(sample=sample, probe=probe)
 
