@@ -10,7 +10,7 @@ project_dir = os.path.expanduser("~/git/experiments-2025/jen-apr2025/")
 storage_dir = "/SNS/REF_L/IPTS-34347/shared/tNR/"
 storage_dir = os.path.expanduser("~/ORNL")
 
-data_dir = os.path.join(storage_dir, "expt11-tNR-218389-120s")
+data_dir = os.path.join(storage_dir, "expt11-tNR-218396-120s")
 
 # Directory where we store dynamic fit results
 dyn_model_dir = os.path.join(storage_dir, "dyn-fitting")
@@ -22,17 +22,17 @@ initial_err_file = os.path.join(
     project_dir, "results", "expt11-all-corefine", "Cu-THF-corefine-expt11-err.json"
 )
 initial_expt_file = os.path.join(
-    project_dir, "results", "expt11-all-corefine", "Cu-THF-corefine-expt11-1-expt.json"
+    project_dir, "results", "expt11-all-corefine", "Cu-THF-corefine-expt11-2-expt.json"
 )
 
 final_err_file = os.path.join(
     project_dir, "results", "expt11-all-corefine", "Cu-THF-corefine-expt11-err.json"
 )
 final_expt_file = os.path.join(
-    project_dir, "results", "expt11-all-corefine", "Cu-THF-corefine-expt11-2-expt.json"
+    project_dir, "results", "expt11-all-corefine", "Cu-THF-corefine-expt11-3-expt.json"
 )
 
-dynamic_run = 218389
+dynamic_run = 218396
 
 # Create top-level directory for the dynamic fits
 if not os.path.exists(os.path.join(dyn_model_dir, f"{dynamic_run}-dyn")):

@@ -18,7 +18,7 @@ expt_file = sys.argv[2]
 err_file = sys.argv[3]
 
 # 0.1 was used so far (Jan 2023) with good results
-prior_scale = 0.1
+prior_scale = 0.05
 
 # Load data ####################################################################
 q_min = 0.0
@@ -35,7 +35,7 @@ i_max = np.max([i for i in range(len(Q)) if Q[i]<q_max])+1
 
 # SNS data is FWHM
 dQ_std = dQ/2.35
-probe = QProbe(Q[i_min:i_max], dQ_std[i_min:i_max], data=(R[i_min:i_max], dR[i_min:i_max]))
+probe = QProbe(Q[i_min:i_max], dQ_std[i_min:i_max], R=R[i_min:i_max], dR=dR[i_min:i_max])
 
 # Experiment ###################################################################
 expt = model_utils.expt_from_json_file(expt_file, probe=probe,
@@ -44,10 +44,10 @@ expt = model_utils.expt_from_json_file(expt_file, probe=probe,
 
 sample = expt.sample
 #sample['THF'].material.rho.range(4.5, 6.4)
-sample['THF'].interface.range(5.0, 30.0)
-sample['material'].material.rho.range(3.0, 12.0)
-sample['material'].thickness.range(10.0, 200.0)
-sample['material'].interface.range(5.0, 33.0)
+sample['THF'].interface.range(5.0, 20.0)
+sample['material'].material.rho.range(3.0, 6.5)
+sample['material'].thickness.range(10.0, 100.0)
+sample['material'].interface.range(5.0, 20.0)
 #sample['Cu'].material.rho.range(2.0, 12.0)
 sample['Cu'].thickness.range(1.0, 1000.0)
 #sample['Cu'].interface.range(1.0, 12.0)
