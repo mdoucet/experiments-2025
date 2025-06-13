@@ -126,8 +126,8 @@ def limited_constraints(experiment_list):
 
 def linear_constraints(experiment_list):
     # The first experiment in the list is the reference
-    #experiment_list[0].probe.theta_offset.range(-0.005, 0.005)
-    offset = Parameter(name="theta offset", value=0.0054)
+    # experiment_list[0].probe.theta_offset.range(-0.005, 0.005)
+    offset = Parameter(name="theta offset", value=-0.013)
     experiment_list[0].probe.theta_offset = offset
     experiment_list[0].probe.intensity = Parameter(value=0.87, name="intensity")
     experiment_list[0].probe.intensity.pm(0.15)
@@ -216,6 +216,7 @@ def linear_constraints(experiment_list):
 
 
 # Auto-reduction directory
+
 ar_dir = "/SNS/REF_L/IPTS-34347/shared/tNR/"
 data_set = "expt11-tNR-218389-120s"
 
@@ -229,11 +230,15 @@ data_files = data_files[::2]
 
 
 expt_list = []
-for i, f in enumerate(data_files):
-    _refl = np.loadtxt(os.path.join(ar_dir, data_set, f)).T
-    experiment = create_fit_experiment(_refl[0], _refl[3], _refl[1], _refl[2])
-    expt_list.append(experiment)
 
-linear_constraints(expt_list)
+_refl = np.loadtxt(os.path.join(ar_dir, data_set, data_files[0])).T
+experiment = create_fit_experiment(_refl[0], _refl[3], _refl[1], _refl[2])
+expt_list.append(experiment)
+
+_refl = np.loadtxt(os.path.join(ar_dir, "..", 
+                                "autoreduce", "REFL_218386_combined_data_auto.txt")).T
+
+experiment = create_fit_experiment(_refl[0], _refl[3], _refl[1], _refl[2])
+expt_list.append(experiment)
 
 problem = FitProblem(expt_list)
