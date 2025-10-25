@@ -136,13 +136,14 @@ def create_sample(has_SEI=True, sld_thf=5.5):
 
 # Auto-reduction directory
 ar_dir = "/SNS/REF_L/IPTS-34347/shared/autoreduce/"
-
+ar_dir = "/home/mat/git/analyzer/data/partial/"
 # OCV 1
 sld_thf = 6.2
 run = 218386
 #run = 218397
 #run = 218346 # Expt 9
 #run = 218295 # Expt 1
+run = 223772
 
 data_files = [
     os.path.join(ar_dir, "REFL_%s_1_%s_partial.txt" % (run, run)),
@@ -194,4 +195,5 @@ sample_OCV1["Cu"].interface = sample_OCV2["Cu"].interface
 exp_OCV1 = Experiment(sample=sample_OCV1, probe=probe_OCV1)
 exp_OCV2 = Experiment(sample=sample_OCV2, probe=probe_OCV2)
 
-problem = FitProblem([exp_OCV1, exp_OCV2])
+#problem = FitProblem([exp_OCV1, exp_OCV2])
+problem = FitProblem([exp_OCV1])
