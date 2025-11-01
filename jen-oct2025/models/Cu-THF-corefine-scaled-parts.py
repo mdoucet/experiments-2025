@@ -48,7 +48,8 @@ ar_dir = "/SNS/REF_L/IPTS-34347/shared/autoreduce/"
 ar_dir = "/home/mat/git/analyzer/data/partial/"
 
 run = 223772 # First OCV
-run = 223787
+run = 223918
+run = 224011
 
 data_files = [
     os.path.join(ar_dir, "REFL_%s_1_%s_partial.txt" % (run, run)),
