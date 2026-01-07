@@ -1,0 +1,9 @@
+{
+  "intervals_file": "/SNS/REF_L/IPTS-34347/shared/expt11-splits-per-file-w-hold.json",
+  "event_file": "218389",
+  "template_file": "/SNS/REF_L/IPTS-34347/shared/autoreduce/REF_L_sample_6_tNR.xml",
+  "output_dir": "/SNS/REF_L/IPTS-34347/shared/isaac/tNR/per-file/",
+  "scan_index": 4,
+  "theta_offset": 0.0,
+  "n_intervals": 82
+}

@@ -1,0 +1,703 @@
+{
+  "source_directory": "/gpfs/neutronsfs/instruments/REF_L/IPTS-34347/shared/isaac/ec-data/expt11",
+  "pattern": "*C02_?.mpt",
+  "resolution": "per-file",
+  "n_intervals": 82,
+  "intervals": [
+    {
+      "label": "hold_initial_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:55:16.521000",
+      "end": "2025-04-20T10:55:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 0
+    },
+    {
+      "label": "hold_initial_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:55:46.521000",
+      "end": "2025-04-20T10:56:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 1
+    },
+    {
+      "label": "hold_initial_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:56:16.521000",
+      "end": "2025-04-20T10:56:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 2
+    },
+    {
+      "label": "hold_initial_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:56:46.521000",
+      "end": "2025-04-20T10:57:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 3
+    },
+    {
+      "label": "hold_initial_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:57:16.521000",
+      "end": "2025-04-20T10:57:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 4
+    },
+    {
+      "label": "hold_initial_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:57:46.521000",
+      "end": "2025-04-20T10:58:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 5
+    },
+    {
+      "label": "hold_initial_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:58:16.521000",
+      "end": "2025-04-20T10:58:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 6
+    },
+    {
+      "label": "hold_initial_7",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:58:46.521000",
+      "end": "2025-04-20T10:59:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 7
+    },
+    {
+      "label": "hold_initial_8",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:59:16.521000",
+      "end": "2025-04-20T10:59:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 8
+    },
+    {
+      "label": "hold_initial_9",
+      "interval_type": "hold",
+      "start": "2025-04-20T10:59:46.521000",
+      "end": "2025-04-20T11:00:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 9
+    },
+    {
+      "label": "hold_initial_10",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:00:16.521000",
+      "end": "2025-04-20T11:00:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 10
+    },
+    {
+      "label": "hold_initial_11",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:00:46.521000",
+      "end": "2025-04-20T11:01:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 11
+    },
+    {
+      "label": "hold_initial_12",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:01:16.521000",
+      "end": "2025-04-20T11:01:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 12
+    },
+    {
+      "label": "hold_initial_13",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:01:46.521000",
+      "end": "2025-04-20T11:02:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 13
+    },
+    {
+      "label": "hold_initial_14",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:02:16.521000",
+      "end": "2025-04-20T11:02:46.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 14
+    },
+    {
+      "label": "hold_initial_15",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:02:46.521000",
+      "end": "2025-04-20T11:03:16.521000",
+      "duration_seconds": 30.0,
+      "hold_index": 15
+    },
+    {
+      "label": "hold_initial_16",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:03:16.521000",
+      "end": "2025-04-20T11:03:44.483170",
+      "duration_seconds": 27.96217,
+      "hold_index": 16
+    },
+    {
+      "label": "sequence_1_eis_1",
+      "filename": "sequence_1_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_1.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:03:44.483170",
+      "end": "2025-04-20T11:05:06.361862",
+      "duration_seconds": 81.878692,
+      "n_frequencies": 43,
+      "first_time_s": 507.9621700546559,
+      "last_time_s": 589.8408616769593,
+      "avg_ewe_v": -0.12544818813953487
+    },
+    {
+      "label": "hold_gap_1_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:05:06.361862",
+      "end": "2025-04-20T11:05:36.361862",
+      "duration_seconds": 30.0,
+      "hold_index": 17
+    },
+    {
+      "label": "hold_gap_1_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:05:36.361862",
+      "end": "2025-04-20T11:06:06.361862",
+      "duration_seconds": 30.0,
+      "hold_index": 18
+    },
+    {
+      "label": "hold_gap_1_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:06:06.361862",
+      "end": "2025-04-20T11:06:36.361862",
+      "duration_seconds": 30.0,
+      "hold_index": 19
+    },
+    {
+      "label": "hold_gap_1_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:06:36.361862",
+      "end": "2025-04-20T11:07:06.361862",
+      "duration_seconds": 30.0,
+      "hold_index": 20
+    },
+    {
+      "label": "hold_gap_1_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:07:06.361862",
+      "end": "2025-04-20T11:07:36.361862",
+      "duration_seconds": 30.0,
+      "hold_index": 21
+    },
+    {
+      "label": "hold_gap_1_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:07:36.361862",
+      "end": "2025-04-20T11:08:06.361862",
+      "duration_seconds": 30.0,
+      "hold_index": 22
+    },
+    {
+      "label": "hold_gap_1_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:08:06.361862",
+      "end": "2025-04-20T11:08:08.665171",
+      "duration_seconds": 2.303309,
+      "hold_index": 23
+    },
+    {
+      "label": "sequence_2_eis_2",
+      "filename": "sequence_2_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_2.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:08:08.665171",
+      "end": "2025-04-20T11:09:30.889904",
+      "duration_seconds": 82.224733,
+      "n_frequencies": 43,
+      "first_time_s": 772.1441711892985,
+      "last_time_s": 854.3689042947371,
+      "avg_ewe_v": -0.2254274776744186
+    },
+    {
+      "label": "hold_gap_2_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:09:30.889904",
+      "end": "2025-04-20T11:10:00.889904",
+      "duration_seconds": 30.0,
+      "hold_index": 24
+    },
+    {
+      "label": "hold_gap_2_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:10:00.889904",
+      "end": "2025-04-20T11:10:30.889904",
+      "duration_seconds": 30.0,
+      "hold_index": 25
+    },
+    {
+      "label": "hold_gap_2_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:10:30.889904",
+      "end": "2025-04-20T11:11:00.889904",
+      "duration_seconds": 30.0,
+      "hold_index": 26
+    },
+    {
+      "label": "hold_gap_2_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:11:00.889904",
+      "end": "2025-04-20T11:11:30.889904",
+      "duration_seconds": 30.0,
+      "hold_index": 27
+    },
+    {
+      "label": "hold_gap_2_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:11:30.889904",
+      "end": "2025-04-20T11:12:00.889904",
+      "duration_seconds": 30.0,
+      "hold_index": 28
+    },
+    {
+      "label": "hold_gap_2_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:12:00.889904",
+      "end": "2025-04-20T11:12:30.889904",
+      "duration_seconds": 30.0,
+      "hold_index": 29
+    },
+    {
+      "label": "hold_gap_2_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:12:30.889904",
+      "end": "2025-04-20T11:12:32.873189",
+      "duration_seconds": 1.983285,
+      "hold_index": 30
+    },
+    {
+      "label": "sequence_3_eis_3",
+      "filename": "sequence_3_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_3.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:12:32.873189",
+      "end": "2025-04-20T11:13:56.299424",
+      "duration_seconds": 83.426235,
+      "n_frequencies": 43,
+      "first_time_s": 1036.352188698496,
+      "last_time_s": 1119.778424341028,
+      "avg_ewe_v": -0.22545274581395347
+    },
+    {
+      "label": "hold_gap_3_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:13:56.299424",
+      "end": "2025-04-20T11:14:26.299424",
+      "duration_seconds": 30.0,
+      "hold_index": 31
+    },
+    {
+      "label": "hold_gap_3_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:14:26.299424",
+      "end": "2025-04-20T11:14:56.299424",
+      "duration_seconds": 30.0,
+      "hold_index": 32
+    },
+    {
+      "label": "hold_gap_3_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:14:56.299424",
+      "end": "2025-04-20T11:15:26.299424",
+      "duration_seconds": 30.0,
+      "hold_index": 33
+    },
+    {
+      "label": "hold_gap_3_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:15:26.299424",
+      "end": "2025-04-20T11:15:56.299424",
+      "duration_seconds": 30.0,
+      "hold_index": 34
+    },
+    {
+      "label": "hold_gap_3_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:15:56.299424",
+      "end": "2025-04-20T11:16:26.299424",
+      "duration_seconds": 30.0,
+      "hold_index": 35
+    },
+    {
+      "label": "hold_gap_3_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:16:26.299424",
+      "end": "2025-04-20T11:16:56.299424",
+      "duration_seconds": 30.0,
+      "hold_index": 36
+    },
+    {
+      "label": "hold_gap_3_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:16:56.299424",
+      "end": "2025-04-20T11:16:58.602196",
+      "duration_seconds": 2.302772,
+      "hold_index": 37
+    },
+    {
+      "label": "sequence_4_eis_4",
+      "filename": "sequence_4_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_4.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:16:58.602196",
+      "end": "2025-04-20T11:18:20.360897",
+      "duration_seconds": 81.758701,
+      "n_frequencies": 43,
+      "first_time_s": 1302.081195799954,
+      "last_time_s": 1383.839897283237,
+      "avg_ewe_v": -0.3253901639534883
+    },
+    {
+      "label": "hold_gap_4_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:18:20.360897",
+      "end": "2025-04-20T11:18:50.360897",
+      "duration_seconds": 30.0,
+      "hold_index": 38
+    },
+    {
+      "label": "hold_gap_4_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:18:50.360897",
+      "end": "2025-04-20T11:19:20.360897",
+      "duration_seconds": 30.0,
+      "hold_index": 39
+    },
+    {
+      "label": "hold_gap_4_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:19:20.360897",
+      "end": "2025-04-20T11:19:50.360897",
+      "duration_seconds": 30.0,
+      "hold_index": 40
+    },
+    {
+      "label": "hold_gap_4_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:19:50.360897",
+      "end": "2025-04-20T11:20:20.360897",
+      "duration_seconds": 30.0,
+      "hold_index": 41
+    },
+    {
+      "label": "hold_gap_4_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:20:20.360897",
+      "end": "2025-04-20T11:20:50.360897",
+      "duration_seconds": 30.0,
+      "hold_index": 42
+    },
+    {
+      "label": "hold_gap_4_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:20:50.360897",
+      "end": "2025-04-20T11:21:20.360897",
+      "duration_seconds": 30.0,
+      "hold_index": 43
+    },
+    {
+      "label": "hold_gap_4_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:21:20.360897",
+      "end": "2025-04-20T11:21:22.701222",
+      "duration_seconds": 2.340325,
+      "hold_index": 44
+    },
+    {
+      "label": "sequence_5_eis_5",
+      "filename": "sequence_5_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_5.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:21:22.701222",
+      "end": "2025-04-20T11:22:48.400835",
+      "duration_seconds": 85.699613,
+      "n_frequencies": 43,
+      "first_time_s": 1566.180222183975,
+      "last_time_s": 1651.879835454456,
+      "avg_ewe_v": -0.32534010767441857
+    },
+    {
+      "label": "hold_gap_5_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:22:48.400835",
+      "end": "2025-04-20T11:23:18.400835",
+      "duration_seconds": 30.0,
+      "hold_index": 45
+    },
+    {
+      "label": "hold_gap_5_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:23:18.400835",
+      "end": "2025-04-20T11:23:48.400835",
+      "duration_seconds": 30.0,
+      "hold_index": 46
+    },
+    {
+      "label": "hold_gap_5_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:23:48.400835",
+      "end": "2025-04-20T11:24:18.400835",
+      "duration_seconds": 30.0,
+      "hold_index": 47
+    },
+    {
+      "label": "hold_gap_5_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:24:18.400835",
+      "end": "2025-04-20T11:24:48.400835",
+      "duration_seconds": 30.0,
+      "hold_index": 48
+    },
+    {
+      "label": "hold_gap_5_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:24:48.400835",
+      "end": "2025-04-20T11:25:18.400835",
+      "duration_seconds": 30.0,
+      "hold_index": 49
+    },
+    {
+      "label": "hold_gap_5_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:25:18.400835",
+      "end": "2025-04-20T11:25:48.400835",
+      "duration_seconds": 30.0,
+      "hold_index": 50
+    },
+    {
+      "label": "hold_gap_5_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:25:48.400835",
+      "end": "2025-04-20T11:25:51.055244",
+      "duration_seconds": 2.654409,
+      "hold_index": 51
+    },
+    {
+      "label": "sequence_6_eis_6",
+      "filename": "sequence_6_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_6.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:25:51.055244",
+      "end": "2025-04-20T11:27:15.083856",
+      "duration_seconds": 84.028612,
+      "n_frequencies": 43,
+      "first_time_s": 1834.534243836781,
+      "last_time_s": 1918.562856121222,
+      "avg_ewe_v": -0.4252840741860465
+    },
+    {
+      "label": "hold_gap_6_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:27:15.083856",
+      "end": "2025-04-20T11:27:45.083856",
+      "duration_seconds": 30.0,
+      "hold_index": 52
+    },
+    {
+      "label": "hold_gap_6_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:27:45.083856",
+      "end": "2025-04-20T11:28:15.083856",
+      "duration_seconds": 30.0,
+      "hold_index": 53
+    },
+    {
+      "label": "hold_gap_6_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:28:15.083856",
+      "end": "2025-04-20T11:28:45.083856",
+      "duration_seconds": 30.0,
+      "hold_index": 54
+    },
+    {
+      "label": "hold_gap_6_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:28:45.083856",
+      "end": "2025-04-20T11:29:15.083856",
+      "duration_seconds": 30.0,
+      "hold_index": 55
+    },
+    {
+      "label": "hold_gap_6_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:29:15.083856",
+      "end": "2025-04-20T11:29:45.083856",
+      "duration_seconds": 30.0,
+      "hold_index": 56
+    },
+    {
+      "label": "hold_gap_6_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:29:45.083856",
+      "end": "2025-04-20T11:30:15.083856",
+      "duration_seconds": 30.0,
+      "hold_index": 57
+    },
+    {
+      "label": "hold_gap_6_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:30:15.083856",
+      "end": "2025-04-20T11:30:17.578257",
+      "duration_seconds": 2.494401,
+      "hold_index": 58
+    },
+    {
+      "label": "sequence_7_eis_7",
+      "filename": "sequence_7_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_7.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:30:17.578257",
+      "end": "2025-04-20T11:31:40.955844",
+      "duration_seconds": 83.377587,
+      "n_frequencies": 43,
+      "first_time_s": 2101.057257109278,
+      "last_time_s": 2184.434844056144,
+      "avg_ewe_v": -0.42535830116279066
+    },
+    {
+      "label": "hold_gap_7_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:31:40.955844",
+      "end": "2025-04-20T11:32:10.955844",
+      "duration_seconds": 30.0,
+      "hold_index": 59
+    },
+    {
+      "label": "hold_gap_7_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:32:10.955844",
+      "end": "2025-04-20T11:32:40.955844",
+      "duration_seconds": 30.0,
+      "hold_index": 60
+    },
+    {
+      "label": "hold_gap_7_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:32:40.955844",
+      "end": "2025-04-20T11:33:10.955844",
+      "duration_seconds": 30.0,
+      "hold_index": 61
+    },
+    {
+      "label": "hold_gap_7_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:33:10.955844",
+      "end": "2025-04-20T11:33:40.955844",
+      "duration_seconds": 30.0,
+      "hold_index": 62
+    },
+    {
+      "label": "hold_gap_7_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:33:40.955844",
+      "end": "2025-04-20T11:34:10.955844",
+      "duration_seconds": 30.0,
+      "hold_index": 63
+    },
+    {
+      "label": "hold_gap_7_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:34:10.955844",
+      "end": "2025-04-20T11:34:40.955844",
+      "duration_seconds": 30.0,
+      "hold_index": 64
+    },
+    {
+      "label": "hold_gap_7_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:34:40.955844",
+      "end": "2025-04-20T11:34:43.770255",
+      "duration_seconds": 2.814411,
+      "hold_index": 65
+    },
+    {
+      "label": "sequence_8_eis_8",
+      "filename": "sequence_8_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_8.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:34:43.770255",
+      "end": "2025-04-20T11:36:07.247588",
+      "duration_seconds": 83.477333,
+      "n_frequencies": 43,
+      "first_time_s": 2367.249255139381,
+      "last_time_s": 2450.726588357647,
+      "avg_ewe_v": -0.5256227202325581
+    },
+    {
+      "label": "hold_gap_8_0",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:36:07.247588",
+      "end": "2025-04-20T11:36:37.247588",
+      "duration_seconds": 30.0,
+      "hold_index": 66
+    },
+    {
+      "label": "hold_gap_8_1",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:36:37.247588",
+      "end": "2025-04-20T11:37:07.247588",
+      "duration_seconds": 30.0,
+      "hold_index": 67
+    },
+    {
+      "label": "hold_gap_8_2",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:37:07.247588",
+      "end": "2025-04-20T11:37:37.247588",
+      "duration_seconds": 30.0,
+      "hold_index": 68
+    },
+    {
+      "label": "hold_gap_8_3",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:37:37.247588",
+      "end": "2025-04-20T11:38:07.247588",
+      "duration_seconds": 30.0,
+      "hold_index": 69
+    },
+    {
+      "label": "hold_gap_8_4",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:38:07.247588",
+      "end": "2025-04-20T11:38:37.247588",
+      "duration_seconds": 30.0,
+      "hold_index": 70
+    },
+    {
+      "label": "hold_gap_8_5",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:38:37.247588",
+      "end": "2025-04-20T11:39:07.247588",
+      "duration_seconds": 30.0,
+      "hold_index": 71
+    },
+    {
+      "label": "hold_gap_8_6",
+      "interval_type": "hold",
+      "start": "2025-04-20T11:39:07.247588",
+      "end": "2025-04-20T11:39:09.901255",
+      "duration_seconds": 2.653667,
+      "hold_index": 72
+    },
+    {
+      "label": "sequence_9_eis_9",
+      "filename": "sequence_9_CuPt_UHP1MLiBF4-d8-THF_1per-EtOH_expt11_CAs,PEIS,OCV_02_PEIS_C02_9.mpt",
+      "interval_type": "eis",
+      "start": "2025-04-20T11:39:09.901255",
+      "end": "2025-04-20T11:40:33.411957",
+      "duration_seconds": 83.510702,
+      "n_frequencies": 43,
+      "first_time_s": 2633.38025484659,
+      "last_time_s": 2716.890957266442,
+      "avg_ewe_v": -0.5256102648837209
+    }
+  ],
+  "hold_interval_seconds": 30.0,
+  "n_hold_intervals": 73,
+  "n_eis_intervals": 9
+}
