@@ -1,0 +1,464 @@
+{
+  "run_number": 223995,
+  "duration": 6634.55810546875,
+  "n_intervals": 65,
+  "intervals": [
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step0_p0p00V_Eoc",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:07:43.831821",
+      "end": "2025-10-28T19:09:07.173779"
+    },
+    {
+      "label": "hold_step1_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:09:07.173779",
+      "end": "2025-10-28T19:09:37.173779"
+    },
+    {
+      "label": "hold_step1_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:09:37.173779",
+      "end": "2025-10-28T19:10:07.173779"
+    },
+    {
+      "label": "hold_step1_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:10:07.173779",
+      "end": "2025-10-28T19:10:37.173779"
+    },
+    {
+      "label": "hold_step1_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:10:37.173779",
+      "end": "2025-10-28T19:11:07.173779"
+    },
+    {
+      "label": "hold_step1_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:11:07.173779",
+      "end": "2025-10-28T19:11:37.173779"
+    },
+    {
+      "label": "hold_step1_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:11:37.173779",
+      "end": "2025-10-28T19:12:07.173779"
+    },
+    {
+      "label": "hold_step1_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:12:07.173779",
+      "end": "2025-10-28T19:12:09.156832"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step1_m0p10V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:12:09.156832",
+      "end": "2025-10-28T19:13:32.003560"
+    },
+    {
+      "label": "hold_step2_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:13:32.003560",
+      "end": "2025-10-28T19:14:02.003560"
+    },
+    {
+      "label": "hold_step2_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:14:02.003560",
+      "end": "2025-10-28T19:14:32.003560"
+    },
+    {
+      "label": "hold_step2_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:14:32.003560",
+      "end": "2025-10-28T19:15:02.003560"
+    },
+    {
+      "label": "hold_step2_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:15:02.003560",
+      "end": "2025-10-28T19:15:32.003560"
+    },
+    {
+      "label": "hold_step2_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:15:32.003560",
+      "end": "2025-10-28T19:16:02.003560"
+    },
+    {
+      "label": "hold_step2_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:16:02.003560",
+      "end": "2025-10-28T19:16:32.003560"
+    },
+    {
+      "label": "hold_step2_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:16:32.003560",
+      "end": "2025-10-28T19:16:33.827860"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step2_m0p10V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:16:33.827860",
+      "end": "2025-10-28T19:17:56.534243"
+    },
+    {
+      "label": "hold_step3_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:17:56.534243",
+      "end": "2025-10-28T19:18:26.534243"
+    },
+    {
+      "label": "hold_step3_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:18:26.534243",
+      "end": "2025-10-28T19:18:56.534243"
+    },
+    {
+      "label": "hold_step3_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:18:56.534243",
+      "end": "2025-10-28T19:19:26.534243"
+    },
+    {
+      "label": "hold_step3_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:19:26.534243",
+      "end": "2025-10-28T19:19:56.534243"
+    },
+    {
+      "label": "hold_step3_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:19:56.534243",
+      "end": "2025-10-28T19:20:26.534243"
+    },
+    {
+      "label": "hold_step3_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:20:26.534243",
+      "end": "2025-10-28T19:20:56.534243"
+    },
+    {
+      "label": "hold_step3_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:20:56.534243",
+      "end": "2025-10-28T19:20:57.846885"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step3_m0p20V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:20:57.846885",
+      "end": "2025-10-28T19:22:20.728527"
+    },
+    {
+      "label": "hold_step4_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:22:20.728527",
+      "end": "2025-10-28T19:22:50.728527"
+    },
+    {
+      "label": "hold_step4_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:22:50.728527",
+      "end": "2025-10-28T19:23:20.728527"
+    },
+    {
+      "label": "hold_step4_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:23:20.728527",
+      "end": "2025-10-28T19:23:50.728527"
+    },
+    {
+      "label": "hold_step4_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:23:50.728527",
+      "end": "2025-10-28T19:24:20.728527"
+    },
+    {
+      "label": "hold_step4_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:24:20.728527",
+      "end": "2025-10-28T19:24:50.728527"
+    },
+    {
+      "label": "hold_step4_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:24:50.728527",
+      "end": "2025-10-28T19:25:20.728527"
+    },
+    {
+      "label": "hold_step4_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:25:20.728527",
+      "end": "2025-10-28T19:25:22.201859"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step4_m0p20V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:25:22.201859",
+      "end": "2025-10-28T19:26:44.952472"
+    },
+    {
+      "label": "hold_step5_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:26:44.952472",
+      "end": "2025-10-28T19:27:14.952472"
+    },
+    {
+      "label": "hold_step5_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:27:14.952472",
+      "end": "2025-10-28T19:27:44.952472"
+    },
+    {
+      "label": "hold_step5_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:27:44.952472",
+      "end": "2025-10-28T19:28:14.952472"
+    },
+    {
+      "label": "hold_step5_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:28:14.952472",
+      "end": "2025-10-28T19:28:44.952472"
+    },
+    {
+      "label": "hold_step5_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:28:44.952472",
+      "end": "2025-10-28T19:29:14.952472"
+    },
+    {
+      "label": "hold_step5_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:29:14.952472",
+      "end": "2025-10-28T19:29:44.952472"
+    },
+    {
+      "label": "hold_step5_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:29:44.952472",
+      "end": "2025-10-28T19:29:46.776906"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step5_m0p30V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:29:46.776906",
+      "end": "2025-10-28T19:31:09.217712"
+    },
+    {
+      "label": "hold_step6_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:31:09.217712",
+      "end": "2025-10-28T19:31:39.217712"
+    },
+    {
+      "label": "hold_step6_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:31:39.217712",
+      "end": "2025-10-28T19:32:09.217712"
+    },
+    {
+      "label": "hold_step6_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:32:09.217712",
+      "end": "2025-10-28T19:32:39.217712"
+    },
+    {
+      "label": "hold_step6_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:32:39.217712",
+      "end": "2025-10-28T19:33:09.217712"
+    },
+    {
+      "label": "hold_step6_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:33:09.217712",
+      "end": "2025-10-28T19:33:39.217712"
+    },
+    {
+      "label": "hold_step6_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:33:39.217712",
+      "end": "2025-10-28T19:34:09.217712"
+    },
+    {
+      "label": "hold_step6_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:34:09.217712",
+      "end": "2025-10-28T19:34:11.361924"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step6_m0p30V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:34:11.361924",
+      "end": "2025-10-28T19:35:33.793371"
+    },
+    {
+      "label": "hold_step7_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:35:33.793371",
+      "end": "2025-10-28T19:36:03.793371"
+    },
+    {
+      "label": "hold_step7_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:36:03.793371",
+      "end": "2025-10-28T19:36:33.793371"
+    },
+    {
+      "label": "hold_step7_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:36:33.793371",
+      "end": "2025-10-28T19:37:03.793371"
+    },
+    {
+      "label": "hold_step7_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:37:03.793371",
+      "end": "2025-10-28T19:37:33.793371"
+    },
+    {
+      "label": "hold_step7_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:37:33.793371",
+      "end": "2025-10-28T19:38:03.793371"
+    },
+    {
+      "label": "hold_step7_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:38:03.793371",
+      "end": "2025-10-28T19:38:33.793371"
+    },
+    {
+      "label": "hold_step7_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:38:33.793371",
+      "end": "2025-10-28T19:38:35.105899"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step7_m0p40V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:38:35.105899",
+      "end": "2025-10-28T19:39:56.734860"
+    },
+    {
+      "label": "hold_step8_0",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:39:56.734860",
+      "end": "2025-10-28T19:40:26.734860"
+    },
+    {
+      "label": "hold_step8_1",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:40:26.734860",
+      "end": "2025-10-28T19:40:56.734860"
+    },
+    {
+      "label": "hold_step8_2",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:40:56.734860",
+      "end": "2025-10-28T19:41:26.734860"
+    },
+    {
+      "label": "hold_step8_3",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:41:26.734860",
+      "end": "2025-10-28T19:41:56.734860"
+    },
+    {
+      "label": "hold_step8_4",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:41:56.734860",
+      "end": "2025-10-28T19:42:26.734860"
+    },
+    {
+      "label": "hold_step8_5",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:42:26.734860",
+      "end": "2025-10-28T19:42:56.734860"
+    },
+    {
+      "label": "hold_step8_6",
+      "interval_type": "hold",
+      "start": "2025-10-28T19:42:56.734860",
+      "end": "2025-10-28T19:42:58.205919"
+    },
+    {
+      "label": "Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step8_m0p40V_Ref",
+      "interval_type": "eis",
+      "start": "2025-10-28T19:42:58.205919",
+      "end": "2025-10-28T19:44:19.495648"
+    }
+  ],
+  "reduced_files": [
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step0_p0p00V_Eoc.txt",
+    "tNR-eis-223995/r223995_hold_step1_0.txt",
+    "tNR-eis-223995/r223995_hold_step1_1.txt",
+    "tNR-eis-223995/r223995_hold_step1_2.txt",
+    "tNR-eis-223995/r223995_hold_step1_3.txt",
+    "tNR-eis-223995/r223995_hold_step1_4.txt",
+    "tNR-eis-223995/r223995_hold_step1_5.txt",
+    "tNR-eis-223995/r223995_hold_step1_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step1_m0p10V_Ref.txt",
+    "tNR-eis-223995/r223995_hold_step2_0.txt",
+    "tNR-eis-223995/r223995_hold_step2_1.txt",
+    "tNR-eis-223995/r223995_hold_step2_2.txt",
+    "tNR-eis-223995/r223995_hold_step2_3.txt",
+    "tNR-eis-223995/r223995_hold_step2_4.txt",
+    "tNR-eis-223995/r223995_hold_step2_5.txt",
+    "tNR-eis-223995/r223995_hold_step2_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step2_m0p10V_Ref.txt",
+    "tNR-eis-223995/r223995_hold_step3_0.txt",
+    "tNR-eis-223995/r223995_hold_step3_1.txt",
+    "tNR-eis-223995/r223995_hold_step3_2.txt",
+    "tNR-eis-223995/r223995_hold_step3_3.txt",
+    "tNR-eis-223995/r223995_hold_step3_4.txt",
+    "tNR-eis-223995/r223995_hold_step3_5.txt",
+    "tNR-eis-223995/r223995_hold_step3_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step3_m0p20V_Ref.txt",
+    "tNR-eis-223995/r223995_hold_step4_0.txt",
+    "tNR-eis-223995/r223995_hold_step4_1.txt",
+    "tNR-eis-223995/r223995_hold_step4_2.txt",
+    "tNR-eis-223995/r223995_hold_step4_3.txt",
+    "tNR-eis-223995/r223995_hold_step4_4.txt",
+    "tNR-eis-223995/r223995_hold_step4_5.txt",
+    "tNR-eis-223995/r223995_hold_step4_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step4_m0p20V_Ref.txt",
+    "tNR-eis-223995/r223995_hold_step5_0.txt",
+    "tNR-eis-223995/r223995_hold_step5_1.txt",
+    "tNR-eis-223995/r223995_hold_step5_2.txt",
+    "tNR-eis-223995/r223995_hold_step5_3.txt",
+    "tNR-eis-223995/r223995_hold_step5_4.txt",
+    "tNR-eis-223995/r223995_hold_step5_5.txt",
+    "tNR-eis-223995/r223995_hold_step5_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step5_m0p30V_Ref.txt",
+    "tNR-eis-223995/r223995_hold_step6_0.txt",
+    "tNR-eis-223995/r223995_hold_step6_1.txt",
+    "tNR-eis-223995/r223995_hold_step6_2.txt",
+    "tNR-eis-223995/r223995_hold_step6_3.txt",
+    "tNR-eis-223995/r223995_hold_step6_4.txt",
+    "tNR-eis-223995/r223995_hold_step6_5.txt",
+    "tNR-eis-223995/r223995_hold_step6_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step6_m0p30V_Ref.txt",
+    "tNR-eis-223995/r223995_hold_step7_0.txt",
+    "tNR-eis-223995/r223995_hold_step7_1.txt",
+    "tNR-eis-223995/r223995_hold_step7_2.txt",
+    "tNR-eis-223995/r223995_hold_step7_3.txt",
+    "tNR-eis-223995/r223995_hold_step7_4.txt",
+    "tNR-eis-223995/r223995_hold_step7_5.txt",
+    "tNR-eis-223995/r223995_hold_step7_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step7_m0p40V_Ref.txt",
+    "tNR-eis-223995/r223995_hold_step8_0.txt",
+    "tNR-eis-223995/r223995_hold_step8_1.txt",
+    "tNR-eis-223995/r223995_hold_step8_2.txt",
+    "tNR-eis-223995/r223995_hold_step8_3.txt",
+    "tNR-eis-223995/r223995_hold_step8_4.txt",
+    "tNR-eis-223995/r223995_hold_step8_5.txt",
+    "tNR-eis-223995/r223995_hold_step8_6.txt",
+    "tNR-eis-223995/r223995_Sample9_CuOx_D2O_NaHCO3_02_PEIS_C01_step8_m0p40V_Ref.txt"
+  ]
+}
