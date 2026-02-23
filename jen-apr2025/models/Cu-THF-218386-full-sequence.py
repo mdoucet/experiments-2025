@@ -170,7 +170,7 @@ for i in range(len(data_files)):
 # Set up the fit parameters for OCV 1
 # This is the first of the three runs, but the parameters are shared across all three runs.
 exp_list_ocv1[0].sample["THF"].material.rho.range(4, 7)
-exp_list_ocv1[0].sample["THF"].interface.range(3, 25)
+exp_list_ocv1[0].sample["THF"].interface.range(3, 35)
 exp_list_ocv1[0].sample["Ti"].thickness.range(25.0, 60.0)
 exp_list_ocv1[0].sample["Ti"].material.rho.range(-4.0, 0)
 exp_list_ocv1[0].sample["Ti"].interface.range(1.0, 22.0)
@@ -223,7 +223,7 @@ exp_list_ocv1[2].sample["CuOx"].interface = exp_list_ocv1[0].sample["CuOx"].inte
 
 # The third run has a different intensity, so we don't share that parameter with the first two runs.
 exp_list_ocv1[2].probe.intensity = Parameter(value=1, name="Intensity_386_3")
-exp_list_ocv1[2].probe.intensity.pm(0.3)
+exp_list_ocv1[2].probe.intensity.range(0.5, 1.1)
 exp_list_ocv1[2].probe.background = exp_list_ocv1[0].probe.background
 
 # OCV 2 ###############################################################################
@@ -247,7 +247,7 @@ for i in range(len(data_files)):
 exp_list_ocv2[0].sample["THF"].material.rho = (
     exp_list_ocv1[0].sample["THF"].material.rho
 )
-exp_list_ocv2[0].sample["THF"].interface.range(3, 25)
+exp_list_ocv2[0].sample["THF"].interface.range(3, 35)
 
 free_Ti = True
 if free_Ti:
