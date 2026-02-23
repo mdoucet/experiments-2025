@@ -1,0 +1,9 @@
+{
+  "intervals_file": "/SNS/users/m2d/data/eis-223995-splits-per-file.json",
+  "event_file": "223995",
+  "template_file": "/SNS/users/m2d/data/template_223995.xml",
+  "output_dir": "tNR-eis-223995",
+  "scan_index": 2,
+  "theta_offset": 0.0,
+  "n_intervals": 65
+}
