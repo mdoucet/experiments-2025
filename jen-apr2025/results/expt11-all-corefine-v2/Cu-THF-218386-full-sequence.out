@@ -1,0 +1,883 @@
+-- Model 0 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_386_1 = 1.04898 in [0.9,1.1]
+  .sample_broadening = 0
+  .theta_offset = 0
+.sample
+  .layers
+    [0]
+      .interface = THF interface = 15.961 in [3,35]
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface = 14.154 in [3,33]
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho = 4.19836 in [1,6.5]
+      .thickness = CuOx thickness = 24.4942 in [10,125]
+    [2]
+      .interface = Cu interface = 9.71619 in [1,25]
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness = 490.302 in [480,550]
+    [3]
+      .interface = Ti interface = 1.2995 in [1,22]
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho = -2.75614 in [-4,0]
+      .thickness = Ti thickness = 28.9073 in [25,60]
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 543.704
+
+[chisq=2.595(59), nllf=302.37]
+-- Model 1 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_386_1 = 1.04898 in [0.9,1.1]
+  .sample_broadening = 0
+  .theta_offset = 0
+.sample
+  .layers
+    [0]
+      .interface = THF interface = 15.961 in [3,35]
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface = 14.154 in [3,33]
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho = 4.19836 in [1,6.5]
+      .thickness = CuOx thickness = 24.4942 in [10,125]
+    [2]
+      .interface = Cu interface = 9.71619 in [1,25]
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness = 490.302 in [480,550]
+    [3]
+      .interface = Ti interface = 1.2995 in [1,22]
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho = -2.75614 in [-4,0]
+      .thickness = Ti thickness = 28.9073 in [25,60]
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 543.704
+
+[chisq=1.655(59), nllf=191.978]
+-- Model 2 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_386_3 = 0.808057 in [0.5,1.1]
+  .sample_broadening = 0
+  .theta_offset = 0
+.sample
+  .layers
+    [0]
+      .interface = THF interface = 15.961 in [3,35]
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface = 14.154 in [3,33]
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho = 4.19836 in [1,6.5]
+      .thickness = CuOx thickness = 24.4942 in [10,125]
+    [2]
+      .interface = Cu interface = 9.71619 in [1,25]
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness = 490.302 in [480,550]
+    [3]
+      .interface = Ti interface = 1.2995 in [1,22]
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho = -2.75614 in [-4,0]
+      .thickness = Ti thickness = 28.9073 in [25,60]
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 543.704
+
+[chisq=1.954(59), nllf=226.684]
+-- Model 3 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_393_1 = 1.03438 in [0.9,1.1]
+  .sample_broadening = 0
+  .theta_offset = 0
+.sample
+  .layers
+    [0]
+      .interface = THF interface = 34.0194 in [3,35]
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface = 17.7495 in [3,33]
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho = 4.22549 in [1,6.5]
+      .thickness = CuOx thickness = 16.958 in [10,125]
+    [2]
+      .interface = Cu interface = 12.7261 in [1,25]
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness = 509.304 in [400,600]
+    [3]
+      .interface = Ti interface = 1.10967 in [1,22]
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho = -2.4728 in [-4,0]
+      .thickness = Ti thickness = 30.3725 in [25,60]
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 556.635
+
+[chisq=2.783(59), nllf=324.232]
+-- Model 4 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_393_1 = 1.03438 in [0.9,1.1]
+  .sample_broadening = 0
+  .theta_offset = 0
+.sample
+  .layers
+    [0]
+      .interface = THF interface = 34.0194 in [3,35]
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface = 17.7495 in [3,33]
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho = 4.22549 in [1,6.5]
+      .thickness = CuOx thickness = 16.958 in [10,125]
+    [2]
+      .interface = Cu interface = 12.7261 in [1,25]
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness = 509.304 in [400,600]
+    [3]
+      .interface = Ti interface = 1.10967 in [1,22]
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho = -2.4728 in [-4,0]
+      .thickness = Ti thickness = 30.3725 in [25,60]
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 556.635
+
+[chisq=1.700(60), nllf=196.353]
+-- Model 5 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_393_1 = 1.03438 in [0.9,1.1]
+  .sample_broadening = 0
+  .theta_offset = 0
+.sample
+  .layers
+    [0]
+      .interface = THF interface = 34.0194 in [3,35]
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface = 17.7495 in [3,33]
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho = 4.22549 in [1,6.5]
+      .thickness = CuOx thickness = 16.958 in [10,125]
+    [2]
+      .interface = Cu interface = 12.7261 in [1,25]
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness = 509.304 in [400,600]
+    [3]
+      .interface = Ti interface = 1.10967 in [1,22]
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho = -2.4728 in [-4,0]
+      .thickness = Ti thickness = 30.3725 in [25,60]
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 556.635
+
+[chisq=1.284(59), nllf=148.896]
+-- Model 6 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 0 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 0 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 0 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 0 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 0 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 0 = 511.212 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 0 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 0 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 0 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 564.613
+
+[chisq=1.515(98), nllf=181.845]
+-- Model 7 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 1 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 1 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 1 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 1 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 1 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 1 = 512 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 1 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 1 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 1 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 564.968
+
+[chisq=1.438(98), nllf=172.553]
+-- Model 8 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 2 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 2 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 2 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 2 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 2 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 2 = 511.312 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 2 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 2 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 2 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 563.847
+
+[chisq=1.527(98), nllf=183.226]
+-- Model 9 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 3 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 3 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 3 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 3 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 3 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 3 = 515.643 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 3 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 3 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 3 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 567.743
+
+[chisq=1.294(98), nllf=155.29]
+-- Model 10 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 4 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 4 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 4 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 4 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 4 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 4 = 516.331 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 4 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 4 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 4 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 567.998
+
+[chisq=1.459(98), nllf=175.034]
+-- Model 11 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 5 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 5 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 5 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 5 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 5 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 5 = 518.18 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 5 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 5 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 5 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 569.414
+
+[chisq=1.336(98), nllf=160.342]
+-- Model 12 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 6 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 6 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 6 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 6 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 6 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 6 = 519.039 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 6 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 6 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 6 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 569.839
+
+[chisq=1.166(98), nllf=139.944]
+-- Model 13 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 7 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 7 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 7 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 7 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 7 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 7 = 518.251 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 7 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 7 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 7 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 568.617
+
+[chisq=1.399(98), nllf=167.881]
+-- Model 14 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 8 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 8 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 8 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 8 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 8 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 8 = 519.236 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 8 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 8 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 8 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 569.168
+
+[chisq=1.297(98), nllf=155.647]
+-- Model 15 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 9 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 9 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 9 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 9 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 9 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 9 = 520.793 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 9 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 9 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 9 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 570.292
+
+[chisq=1.255(98), nllf=150.628]
+-- Model 16 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 10 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 10 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 10 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 10 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 10 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 10 = 522.212 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 10 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 10 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 10 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 571.277
+
+[chisq=1.394(98), nllf=167.336]
+-- Model 17 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 11 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 11 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 11 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 11 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 11 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 11 = 520.857 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 11 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 11 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 11 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 569.488
+
+[chisq=1.343(98), nllf=161.215]
+-- Model 18 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 12 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 12 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 12 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 12 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 12 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 12 = 519.38 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 12 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 12 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 12 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 567.578
+
+[chisq=1.215(98), nllf=145.84]
+-- Model 19 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 13 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 13 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 13 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 13 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 13 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 13 = 515.964 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 13 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 13 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 13 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 563.729
+
+[chisq=1.334(98), nllf=160.073]
+-- Model 20 None
+.probe
+  .back_absorption = 1
+  .background = 0
+  .intensity = Intensity_tNR = 0.85411 in [0.7,1.1]
+  .sample_broadening = 0
+  .theta_offset = -0.00274115 in [-0.01,0.01]
+.sample
+  .layers
+    [0]
+      .interface = THF interface + (THF interface - THF interface) * 14 / 14
+      .material
+        .irho = THF irho = 0
+        .rho = THF rho = 5.85639 in [4,7]
+      .thickness = THF thickness = 0
+    [1]
+      .interface = CuOx interface + (CuOx interface - CuOx interface) * 14 / 14
+      .material
+        .irho = CuOx irho = 0
+        .rho = CuOx rho + (CuOx rho - CuOx rho) * 14 / 14
+      .thickness = CuOx thickness + (CuOx thickness - CuOx thickness) * 14 / 14
+    [2]
+      .interface = Cu interface + (Cu interface - Cu interface) * 14 / 14
+      .material
+        .irho = Cu irho = 0
+        .rho = Cu rho = 6.30789 in [5,7]
+      .thickness = Cu thickness tNR 14 = 519.753 in [480,550]
+    [3]
+      .interface = Ti interface + (Ti interface - Ti interface) * 14 / 14
+      .material
+        .irho = Ti irho = 0
+        .rho = Ti rho + (Ti rho - Ti rho) * 14 / 14
+      .thickness = Ti thickness + (Ti thickness - Ti thickness) * 14 / 14
+    [4]
+      .interface = Si interface = 0
+      .material
+        .irho = Si irho = 0
+        .rho = Si rho = 2.07
+      .thickness = Si thickness = 0
+  .thickness = Stack thickness = 567.084
+
+[chisq=1.339(98), nllf=160.662]
+[overall chisq=1.4337(82), nllf=3828.03]
