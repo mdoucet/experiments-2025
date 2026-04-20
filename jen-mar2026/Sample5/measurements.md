@@ -22,12 +22,12 @@ Copper oxide is likely present on the copper surface.
 - Run 226656: OCV
 - Run 226659: OCV 
 
-# Fitting approach
+## Fitting approach
 - Co-refine segments, not the combined data sets.
 - Allow for sample broadening.
 - Allow for angle offset (same for all segments of a measurement).
 
-# Fits to perform 
+## Fits to perform 
 1. Run 226642
     - Initial OCV
 2. Run 226649
