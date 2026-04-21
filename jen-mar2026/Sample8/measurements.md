@@ -1,16 +1,17 @@
 # ionomer on copper 
 
-Deposited 50 nm sustainion on 15 nm Copper on 2 nm titanium on silicon 
+## Description
+- Deposited 50 nm sustainion on 15 nm Copper on 2 nm titanium on silicon 
 
-
-## Run 226676: Cu | air
-## Run 226679: Cu | D2O
-## Run 226682: Cu | ionomer | air 
-## Run 226685: Cu | ionomer | D2O + bicarbonate OCV
-## Run 226688: -0.5 mA/cm^2 tNR 
-## Run 226689: -0.5 mA/cm^2 
-## Run 226692: -1 mA/cm^2 tNR
-## Run 226693: -1 mA/cm^2 
+## Measurements
+- Run 226676: ALIGNMENT Cu | air
+- Run 226679: ALIGNMENT Cu | D2O
+- Run 226682: ALIGNMENT Cu | ionomer | air 
+- Run 226685: ALIGNMENT Cu | ionomer | D2O + bicarbonate OCV
+- Run 226688: -0.5 mA/cm^2 tNR 
+- Run 226689: -0.5 mA/cm^2 
+- Run 226692: -1 mA/cm^2 tNR
+- Run 226693: -1 mA/cm^2 
 
 
 ## Fits to perform 

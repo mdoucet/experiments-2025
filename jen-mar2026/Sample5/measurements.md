@@ -13,10 +13,10 @@ Copper oxide is likely present on the copper surface.
 - Sample was aligned once at the beginning of the experiment.
 
 ## Measurements:
-- Run 226642: OCV
+- Run 226642: ALIGNED OCV
 - Run 226645: -0.9 V vs. Ag/AgCl tNR 
-- Run 226646: -0.9 V vs. Ag/AgCl tNR 
-- Run 226649: -0.9 V vs. Ag/AgCl tNR 
+- Run 226646: -0.9 V vs. Ag/AgCl
+- Run 226649: -0.9 V vs. Ag/AgCl 
 - Run 226652: Return to OCV tNR
 - Run 226553: OCV
 - Run 226656: OCV
