@@ -1,0 +1,29 @@
+describe: |
+  2 nm CuOx / 50 nm Cu / 3 nm Ti on Si in D2O (SLD ~6).
+  Neutrons enter from the silicon side.
+
+states:
+  # One state per physical sample condition. All files within a state
+  # share ONE Sample stack; across states, structural parameters are
+  # tied via shared_parameters (whitelist) or unshared_parameters
+  # (blacklist — mutually exclusive).
+
+  - name: run_226642                 # partials: 3 segments, one sample
+    data:
+      - Rawdata/REFL_226642_1_226642_partial.txt
+      - Rawdata/REFL_226642_2_226643_partial.txt
+      - Rawdata/REFL_226642_3_226644_partial.txt
+    theta_offset:      {init: 0.0, min: -0.02, max: 0.02}
+    sample_broadening: true          # defaults: init=0, 0…0.01
+
+  - name: run_226652                 # one combined file → one experiment
+    data:
+      - Rawdata/REFL_226652_1_226652_partial.txt
+      - Rawdata/REFL_226652_2_226653_partial.txt
+      - Rawdata/REFL_226652_3_226654_partial.txt
+    theta_offset:      {init: 0.0, min: -0.02, max: 0.02}
+    sample_broadening: true          # defaults: init=0, 0…0.01
+
+# unshared_parameters: [CuOx.thickness]  # blacklist alternative (mutex)
+
+model_name: Cu-D2O-corefine-226642-226652-parts
