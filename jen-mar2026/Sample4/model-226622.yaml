@@ -1,0 +1,20 @@
+describe: |
+  Deposited 50 nm ionomer on 15 nm copper on 3 nm titanium on silicon,
+  measured in air.
+  Neutrons enter from the silicon side.
+
+states:
+  # One state per physical sample condition. All files within a state
+  # share ONE Sample stack; across states, structural parameters are
+  # tied via shared_parameters (whitelist) or unshared_parameters
+  # (blacklist — mutually exclusive).
+
+  - name: run_226622                 # partials: 3 segments, one sample
+    data:
+      - Rawdata/REFL_226622_1_226622_partial.txt
+      - Rawdata/REFL_226622_2_226623_partial.txt
+      - Rawdata/REFL_226622_3_226624_partial.txt
+    theta_offset:      {init: 0.0, min: -0.02, max: 0.02}
+    sample_broadening: {init: 0.0, min: 0.0, max: 0.05}
+
+model_name: ionomer-air-226622
