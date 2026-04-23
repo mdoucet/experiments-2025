@@ -35,7 +35,7 @@ def create_probe(data_file, theta):
     q, data, errors, dq = np.loadtxt(data_file).T
     wl = 4 * np.pi * np.sin(np.pi / 180 * theta) / q
     dT = dq / q * np.tan(np.pi / 180 * theta) * 180 / np.pi
-    dL = delta_wl_over_wl(wl) * q
+    dL = 0*q
 
     # The following is how refl1d computes dQ
     # dQ = (4 * np.pi / wl) * np.sqrt((np.sin(np.pi/180*theta) * dL / wl) ** 2 + (np.cos(np.pi/180*theta) * dT * np.pi/180) ** 2)
@@ -146,8 +146,8 @@ def linear_constraints(experiment_list, start_expt, end_expt):
 
 
 # Data directory ######################################################################
-steady_dir = os.path.expanduser("~/git/experiments-2025/jen-apr2025/data/steady/")
-tNR_dir = os.path.expanduser("~/git/experiments-2025/jen-apr2025/data/tNR/reduced/")
+steady_dir = os.path.expanduser("/Users/jenni/OneDrive/Desktop/GitHub_2/experiments-2025/jen-oct2025/data/steady")
+tNR_dir = os.path.expanduser("/Users/jenni/OneDrive/Desktop/GitHub_2/experiments-2025/jen-oct2025/data/tNR/reduced/223921_240s")
 
 # OCV 1 ###############################################################################
 # The angles for the three runs are 0.45, 1.2, and 3.5 degrees
@@ -317,18 +317,16 @@ exp_list_ocv2[2].probe.background = exp_list_ocv2[0].probe.background
 # Angle is 0.6 degrees
 run = 223921
 
-INCLUDE_TNR = False
+INCLUDE_TNR = True
 
 exp_list_ocv3 = []
 if INCLUDE_TNR:
     # For a quick test to see that everything aligns, we can fit early and late tNR data.
-    data_files = [
-        [os.path.join(tNR_dir, f"r{run}_hold_initial_1.txt"), 0.6],
-        [os.path.join(tNR_dir, f"r{run}_hold_gap_14_5.txt"), 0.6],
-    ]
+    #data_files = [ f"r{run}_t{t:06d}.txt" for t in range(0, 1921, 240)]
+   
 
     # tNR during EIS
-    #data_files = [[os.path.join(tNR_dir, f"r{run}_sequence_{i}_eis_{i}.txt"), 0.6] for i in range(1, 16)]
+    data_files = [[os.path.join(tNR_dir, f"r{run}_t{i:06d}.txt"), 0.6] for i in range(0,1921,240)]
 
     for i in range(len(data_files)):
         probe = create_probe(data_files[i][0], data_files[i][1])

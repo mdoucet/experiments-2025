@@ -146,8 +146,8 @@ def linear_constraints(experiment_list, start_expt, end_expt):
 
 
 # Data directory ######################################################################
-steady_dir = os.path.expanduser("~/git/experiments-2025/jen-oct2025/data/steady/")
-tNR_dir = os.path.expanduser("~/git/experiments-2025/jen-oct2025/data/tNR/reduced/")
+steady_dir = os.path.expanduser("/Users/jenni/OneDrive/Desktop/GitHub_2/experiments-2025/jen-oct2025/data/steady")
+tNR_dir = os.path.expanduser("/Users/jenni/OneDrive/Desktop/GitHub_2/experiments-2025/jen-oct2025/data/tNR/reduced")
 
 # OCV 1 ###############################################################################
 # The angles for the three runs are 0.45, 1.2, and 3.5 degrees
