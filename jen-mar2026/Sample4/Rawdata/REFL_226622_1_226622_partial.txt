@@ -1,14 +1,14 @@
 # Experiment IPTS-36897 Run 226622
-# Reduction 2.10.0.dev6
+# Reduction 2.10.0.dev1
 # Run title: Sample4_XA-9_air-226622-1.
 # Run start time: 2026-03-29T12:18:06.263331667
-# Reduction time: Thu Apr 23 10:59:02 2026
+# Reduction time: Mon Apr 27 17:39:40 2026
 # Q summing: False
 # TOF weighted: False
 # Bck in Q: False
 # Theta offset: 0.0
 # Stitching type: None
-# Meta:{"wl_min": 2.679749638902263, "wl_max": 9.59605584978334, "q_min": 0.008456979584808193, "q_max": 0.030284041179884577, "theta": 0.0064580470378889695, "start_time": "2026-03-29T12:18:06.263331667", "experiment": "IPTS-36897", "run_number": "226622", "run_title": "Sample4_XA-9_air-226622-1.", "norm_run": 226559, "time": "Thu Apr 23 10:59:02 2026", "dq0": 0, "dq_over_q": 0.02193851093341717, "sequence_number": 1, "sequence_id": 226622, "q_summing": false, "specular_pixel": 150.5, "use_functional_bck": false, "scaling_factors": {"a": 4.0, "err_a": 0, "b": 0, "err_b": 0}, "tof_weighted": false, "bck_in_q": false, "theta_offset": 0.0}
+# Meta:{"wl_min": 2.679749638902263, "wl_max": 9.59605584978334, "q_min": 0.008456979584808193, "q_max": 0.030284041179884577, "theta": 0.0064580470378889695, "start_time": "2026-03-29T12:18:06.263331667", "experiment": "IPTS-36897", "run_number": "226622", "run_title": "Sample4_XA-9_air-226622-1.", "norm_run": 226559, "time": "Mon Apr 27 17:39:40 2026", "dq0": 0, "dq_over_q": 0.02193851093341717, "sequence_number": 1, "sequence_id": 226622, "q_summing": false, "specular_pixel": 150.5, "use_functional_bck": false, "scaling_factors": {"a": 4.0, "err_a": 0, "b": 0, "err_b": 0}, "tof_weighted": false, "bck_in_q": false, "theta_offset": 0.0}
 # DataRun   NormRun   TwoTheta(deg)  LambdaMin(A)   LambdaMax(A) Qmin(1/A)    Qmax(1/A)    SF_A         SF_B          SF
 # 226622    226559    0.740038       2.67975        9.59606      0.0084       0.0302       4.0          0            1.0         
 # Q [1/Angstrom]        R                     dR                    dQ [FWHM]            
