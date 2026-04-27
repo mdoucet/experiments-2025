@@ -8,7 +8,7 @@
 
 ## Measurements 
 - Run 226667: ALIGNMENT silicon | 3 nm Ti | 15 nm Pt | 30 nm ionomer | air
-- Run 226670: ALIGNMENT silicon | 3 nm Ti | 15 nm Pt | 30 nm ionomer | D2O
+- Run 226670: ALIGNMENT silicon | 3 nm Ti | 15 nm Pt | 30 nm ionomer | H2O
 
 
 ## Fits to perform 

@@ -1,0 +1,15 @@
+describe: |
+  Deposited ~30 nm ionomer on 15 nm platinum on 3 nm titanium on silicon.
+  Neutrons enter from the silicon side.
+
+states:
+  - name: run_226661
+    extra_description: ambient is air (SLD ≈ 0)
+    data:
+      - Rawdata/REFL_226661_1_226661_partial.txt
+      - Rawdata/REFL_226661_2_226662_partial.txt
+      - Rawdata/REFL_226661_3_226663_partial.txt
+    theta_offset:      {init: 0.0, min: -0.02, max: 0.02}
+    sample_broadening: {init: 0.0, min: 0.0, max: 0.05}
+
+model_name: agapie-226661

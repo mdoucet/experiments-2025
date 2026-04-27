@@ -1,0 +1,26 @@
+describe: |
+  Deposited ~30 nm ionomer on 15 nm platinum on 3 nm titanium on silicon.
+  Neutrons enter from the silicon side.
+
+states:
+  - name: run_226667
+    extra_description: ambient is air (SLD ≈ 0)
+    data:
+      - Rawdata/REFL_226667_1_226667_partial.txt
+      - Rawdata/REFL_226667_2_226668_partial.txt
+      - Rawdata/REFL_226667_3_226669_partial.txt
+    theta_offset:      {init: 0.0, min: -0.02, max: 0.02}
+    sample_broadening: {init: 0.0, min: 0.0, max: 0.05}
+
+  - name: run_226670
+    extra_description: ambient is H₂O (SLD ≈ -0.56)
+    data:
+      - Rawdata/REFL_226670_1_226670_partial.txt
+      - Rawdata/REFL_226670_2_226671_partial.txt
+      - Rawdata/REFL_226670_3_226672_partial.txt
+    theta_offset:      {init: 0.0, min: -0.02, max: 0.02}
+    sample_broadening: {init: 0.0, min: 0.0, max: 0.05}
+
+# unshared_parameters: [CuOx.thickness]  # blacklist alternative (mutex)
+
+model_name: agapie-corefine-226667-226670-parts
