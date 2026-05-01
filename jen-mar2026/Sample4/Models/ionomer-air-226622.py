@@ -84,15 +84,15 @@ theta_offset_run_226622 = Parameter(value=0.0, name="theta_offset_run_226622")
 theta_offset_run_226622.range(-0.02, 0.02)
 sample_broadening_run_226622 = Parameter(value=0.0, name="sample_broadening_run_226622")
 sample_broadening_run_226622.range(0.0, 0.05)
-probe_run_226622_1 = create_angle_probe(os.path.join(os.path.expanduser('~'), 'git/experiments-2025/jen-mar2026/Sample4/Rawdata/REFL_226622_1_226622_partial.txt'), theta=0.370019)
+probe_run_226622_1 = create_angle_probe(os.path.join(os.path.expanduser('~'), 'OneDrive/Desktop/GitHub_2/experiments-2025/jen-mar2026/Sample4/Rawdata/REFL_226622_1_226622_partial.txt'), theta=0.370019)
 probe_run_226622_1.theta_offset = theta_offset_run_226622
 probe_run_226622_1.sample_broadening = sample_broadening_run_226622
 experiment_run_226622_1 = Experiment(probe=probe_run_226622_1, sample=sample_run_226622)
-probe_run_226622_2 = create_angle_probe(os.path.join(os.path.expanduser('~'), 'git/experiments-2025/jen-mar2026/Sample4/Rawdata/REFL_226622_2_226623_partial.txt'), theta=1.20019)
+probe_run_226622_2 = create_angle_probe(os.path.join(os.path.expanduser('~'), 'OneDrive/Desktop/GitHub_2/experiments-2025/jen-mar2026/Sample4/Rawdata/REFL_226622_2_226623_partial.txt'), theta=1.20019)
 probe_run_226622_2.theta_offset = theta_offset_run_226622
 probe_run_226622_2.sample_broadening = sample_broadening_run_226622
 experiment_run_226622_2 = Experiment(probe=probe_run_226622_2, sample=sample_run_226622)
-probe_run_226622_3 = create_angle_probe(os.path.join(os.path.expanduser('~'), 'git/experiments-2025/jen-mar2026/Sample4/Rawdata/REFL_226622_3_226624_partial.txt'), theta=3.500355)
+probe_run_226622_3 = create_angle_probe(os.path.join(os.path.expanduser('~'), 'OneDrive/Desktop/GitHub_2/experiments-2025/jen-mar2026/Sample4/Rawdata/REFL_226622_3_226624_partial.txt'), theta=3.500355)
 probe_run_226622_3.theta_offset = theta_offset_run_226622
 probe_run_226622_3.sample_broadening = sample_broadening_run_226622
 experiment_run_226622_3 = Experiment(probe=probe_run_226622_3, sample=sample_run_226622)

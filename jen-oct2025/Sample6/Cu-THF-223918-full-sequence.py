@@ -10,13 +10,14 @@ def delta_wl_over_wl(wl):
     The moderator emission time equation gives a time in microsecond.
     """
     dtof = 0.0148 * wl * wl * wl - 0.5233 * wl * wl + 6.4797 * wl + 231.99
-    dtof[wl > 2] = (
-        392.31 * wl**6
-        - 3169.3 * wl**5
-        + 10445 * wl**4
-        - 17872 * wl * wl * wl
-        + 16509 * wl * wl
-        - 7448.4 * wl
+    mask = wl > 2
+    dtof[mask] = (
+        392.31 * wl[mask]**6
+        - 3169.3 * wl[mask]**5
+        + 10445 * wl[mask]**4
+        - 17872 * wl[mask] * wl[mask] * wl[mask]
+        + 16509 * wl[mask] * wl[mask]
+        - 7448.4 * wl[mask]
         + 1280.5
     )
     dwl = 3.9560 * dtof / (1000000 * 15.282 * wl)
@@ -146,14 +147,13 @@ def linear_constraints(experiment_list, start_expt, end_expt):
 
 
 # Data directory ######################################################################
-script_dir = os.path.dirname(os.path.abspath(__file__))
-steady_dir = os.path.join(script_dir, "..", "data", "steady") + os.sep
-tNR_dir = os.path.join(script_dir, "..", "data", "tNR", "reduced") + os.sep
+steady_dir = os.path.join("/Users/jenni/OneDrive/SLAC/ORNL/Oct_2025/Sample_6/RawData")
+tNR_dir = os.path.join("/Users/jenni/OneDrive/SLAC/ORNL/Oct_2025/Sample_6/RawData/tNR/223921_240s")
 
 # OCV 1 ###############################################################################
 # The angles for the three runs are 0.45, 1.2, and 3.5 degrees
 sld_thf = 6.2
-run = 218386
+run = 223918
 
 data_files = [
     [os.path.join(steady_dir, "REFL_%s_1_%s_partial.txt" % (run, run)), 0.45],
@@ -183,9 +183,9 @@ exp_list_ocv1[0].sample["Cu"].thickness.range(400, 600)
 exp_list_ocv1[0].sample["CuOx"].thickness.range(10.0, 125.0)
 exp_list_ocv1[0].sample["CuOx"].material.rho.range(1.0, 6.5)
 exp_list_ocv1[0].sample["CuOx"].interface.range(3.0, 33.0)
-exp_list_ocv1[0].probe.intensity = Parameter(value=1, name="Intensity_386_1")
+exp_list_ocv1[0].probe.intensity = Parameter(value=1, name="Intensity_918_1")
 exp_list_ocv1[0].probe.intensity.pm(0.1)
-#exp_list_ocv1[0].probe.background = Parameter(value=0, name="Background_386_1")
+#exp_list_ocv1[0].probe.background = Parameter(value=0, name="Background_918_1")
 #exp_list_ocv1[0].probe.background.range(0, 1e-5)
 
 exp_list_ocv1[1].sample["THF"].material.rho = (
@@ -223,12 +223,13 @@ exp_list_ocv1[2].sample["CuOx"].material.rho = (
 exp_list_ocv1[2].sample["CuOx"].interface = exp_list_ocv1[0].sample["CuOx"].interface
 
 # The third run has a different intensity, so we don't share that parameter with the first two runs.
-exp_list_ocv1[2].probe.intensity = Parameter(value=1, name="Intensity_386_3")
-exp_list_ocv1[2].probe.intensity.range(0.5, 1.1)
+#exp_list_ocv1[2].probe.intensity = Parameter(value=1, name="Intensity_918_3")
+#exp_list_ocv1[2].probe.intensity.range(0.5, 1.1)
+exp_list_ocv1[2].probe.intensity = exp_list_ocv1[0].probe.intensity
 exp_list_ocv1[2].probe.background = exp_list_ocv1[0].probe.background
 
 # OCV 2 ###############################################################################
-run = 218393
+run = 223922
 
 data_files = [
     [os.path.join(steady_dir, "REFL_%s_1_%s_partial.txt" % (run, run)), 0.45],
@@ -272,9 +273,9 @@ else:
 exp_list_ocv2[0].sample["CuOx"].thickness.range(10.0, 125.0)
 exp_list_ocv2[0].sample["CuOx"].material.rho.range(1.0, 6.5)
 exp_list_ocv2[0].sample["CuOx"].interface.range(3.0, 33.0)
-exp_list_ocv2[0].probe.intensity = Parameter(value=1, name="Intensity_393_1")
+exp_list_ocv2[0].probe.intensity = Parameter(value=1, name="Intensity_922_1")
 exp_list_ocv2[0].probe.intensity.pm(0.1)
-#exp_list_ocv2[0].probe.background = Parameter(value=0, name="Background_393_1")
+#exp_list_ocv2[0].probe.background = Parameter(value=0, name="Background_922_1")
 #exp_list_ocv2[0].probe.background.range(0, 1e-5)
 
 exp_list_ocv2[1].sample["THF"].material.rho = (
@@ -315,20 +316,20 @@ exp_list_ocv2[2].probe.background = exp_list_ocv2[0].probe.background
 
 # tNR ###############################################################################
 # Angle is 0.6 degrees
-run = 218389
+run = 223921
 
-INCLUDE_TNR = True
+INCLUDE_TNR = False
 
 exp_list_ocv3 = []
 if INCLUDE_TNR:
     # For a quick test to see that everything aligns, we can fit early and late tNR data.
     data_files = [
-        [os.path.join(tNR_dir, f"r{run}_hold_initial_1.txt"), 0.6],
-        [os.path.join(tNR_dir, f"r{run}_hold_gap_14_5.txt"), 0.6],
+        [os.path.join(tNR_dir, f"r{run}_t000000.txt"), 0.6],
+        [os.path.join(tNR_dir, f"r{run}_t000240.txt"), 0.6],
     ]
 
     # tNR during EIS
-    data_files = [[os.path.join(tNR_dir, f"r{run}_sequence_{i}_eis_{i}.txt"), 0.6] for i in range(1, 16)]
+    #data_files = [[os.path.join(tNR_dir, f"r{run}_sequence_{i}_eis_{i}.txt"), 0.6] for i in range(1, 16)]
 
     for i in range(len(data_files)):
         probe = create_probe(data_files[i][0], data_files[i][1])
